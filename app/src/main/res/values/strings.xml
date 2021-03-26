@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Apni Dukaan</string>
+    <string name="buy_button">Buy</string>
+    <string name="sell_button">Sell</string>
+    <string name="viewdata_button">View Data</string>
+    <string name="exportdata_button">Export Data</string>
+    <string name="transaction_button">Transaction</string>
 </resources>

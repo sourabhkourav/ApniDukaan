@@ -23,19 +23,92 @@
             android:layout_width="110dp"
             android:layout_height="110dp"
             app:cardCornerRadius="55dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/textView">
+            app:layout_constraintStart_toStartOf="parent">
 
                 <ImageView
                     android:id="@+id/roundedImageView"
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    android:padding="5dp"
-                    android:background="@color/app_color_secondary_lite"
-                    android:src="@drawable/shop_icon"
                     android:layout_gravity="bottom"
+                    android:background="@color/app_color_secondary_lite"
+                    android:padding="5dp"
+                    android:src="@drawable/shop_icon"
                     tools:ignore="ContentDescription" />
+
         </androidx.cardview.widget.CardView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+                <Button
+                    android:id="@+id/buy_button"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/buy_button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <Button
+                    android:id="@+id/sell_button"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:text="@string/sell_button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buy_button"/>
+
+                <Button
+                    android:id="@+id/viewdata_button"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:text="@string/viewdata_button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sell_button"/>
+
+                <Button
+                    android:id="@+id/exportdata_button"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:text="@string/exportdata_button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/viewdata_button"/>
+
+                <Button
+                    android:id="@+id/transaction_button"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:text="@string/transaction_button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/exportdata_button"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
