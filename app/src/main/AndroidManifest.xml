@@ -7,8 +7,35 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
-        <activity android:name=".MainActivity"
-            android:label="@string/app_name"
+
+        <activity android:name=".Transaction_Activity"
+            android:label="@string/transaction_screen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Secondary"/>
+
+        <activity android:name=".ExportData_Activity"
+            android:label="@string/exportdata_screen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Secondary" />
+
+        <activity android:name=".ViewData_Activity"
+            android:label="@string/viewdata_screen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Secondary" />
+
+        <activity android:name=".Sell_Activity"
+            android:label="@string/sell_screen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Secondary" />
+
+        <activity
+            android:name=".Buy_Activity"
+            android:label="@string/buy_screen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Secondary" />
+
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/Theme.ApniDukaan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

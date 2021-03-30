@@ -10,8 +10,8 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            android:textSize="25sp"
+            android:text="@string/app_name"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -19,25 +19,25 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.238" />
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            app:cardCornerRadius="55dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="110dp"-->
+<!--            android:layout_height="110dp"-->
+<!--            app:cardCornerRadius="55dp"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/textView"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent">-->
 
-                <ImageView
-                    android:id="@+id/roundedImageView"
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
-                    android:layout_gravity="bottom"
-                    android:background="@color/app_color_secondary_lite"
-                    android:padding="5dp"
-                    android:src="@drawable/shop_icon"
-                    tools:ignore="ContentDescription" />
+<!--                <ImageView-->
+<!--                    android:id="@+id/roundedImageView"-->
+<!--                    android:layout_width="110dp"-->
+<!--                    android:layout_height="110dp"-->
+<!--                    android:layout_gravity="bottom"-->
+<!--                    android:background="@color/app_color_secondary_lite"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:src="@drawable/ic_launcher_foreground"-->
+<!--                    tools:ignore="ContentDescription" />-->
 
-        </androidx.cardview.widget.CardView>
+<!--        </androidx.cardview.widget.CardView>-->
 
 
         <androidx.constraintlayout.widget.ConstraintLayout

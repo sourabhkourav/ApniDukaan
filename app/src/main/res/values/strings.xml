@@ -5,4 +5,20 @@
     <string name="viewdata_button">View Data</string>
     <string name="exportdata_button">Export Data</string>
     <string name="transaction_button">Transaction</string>
+
+    <!--Buy Screen-->
+    <string name="buy_screen">Buy</string>
+
+    <!--Sell Screen-->
+    <string name="sell_screen">Sell</string>
+
+    <!--View Data Screen-->
+    <string name="viewdata_screen">View Data</string>
+
+    <!--Export Data Screen-->
+    <string name="exportdata_screen">Export Data</string>
+
+    <!--Transaction Screen-->
+    <string name="transaction_screen">Transaction</string>
+
 </resources>
