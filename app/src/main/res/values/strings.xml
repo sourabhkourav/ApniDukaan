@@ -6,11 +6,16 @@
     <string name="exportdata_button">Export Data</string>
     <string name="transaction_button">Transaction</string>
 
-    <!--Buy Screen-->
+    <!--Buy Screen  &  Sell Screen  (common)-->
     <string name="buy_screen">Buy</string>
-
-    <!--Sell Screen-->
     <string name="sell_screen">Sell</string>
+
+
+    <string name="add_items">Add Items</string>
+    <string name="date">Date</string>
+    <string name="seller_text">Seller (Optional)</string>
+    <string name="buyer_text">Buyer (Optional)</string>
+
 
     <!--View Data Screen-->
     <string name="viewdata_screen">View Data</string>

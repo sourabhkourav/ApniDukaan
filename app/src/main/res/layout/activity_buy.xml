@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".Buy_Activity">
 
+    <Button
+        android:id="@+id/additems_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/add_items"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/date"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/additems_button"/>
+
+    <EditText
+        android:id="@+id/seller_textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/seller_text"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_button"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
