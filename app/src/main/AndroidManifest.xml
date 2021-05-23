@@ -13,11 +13,6 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.Secondary"/>
 
-        <activity android:name=".ExportData_Activity"
-            android:label="@string/exportdata_screen"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.Secondary" />
-
         <activity android:name=".ViewData_Activity"
             android:label="@string/viewdata_screen"
             android:parentActivityName=".MainActivity"

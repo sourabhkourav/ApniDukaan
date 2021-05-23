@@ -13,29 +13,31 @@
             android:text="@string/app_name"
             android:textSize="30sp"
             android:textStyle="bold"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.238" />
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    app:cardCornerRadius="35dp"
-                    app:layout_constraintBottom_toTopOf="@+id/textView"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="35dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
-                        <ImageView
-                            android:id="@+id/roundedImageView"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@color/app_color_secondary_lite"
-                            android:src="@drawable/shop_icon"
-                            tools:ignore="ContentDescription" />
+                <ImageView
+                    android:id="@+id/roundedImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="@color/app_color_secondary_lite"
+                    android:src="@drawable/shop_icon"
+                    tools:ignore="ContentDescription" />
 
-                </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -82,18 +84,6 @@
                     app:layout_constraintTop_toBottomOf="@+id/sell_button" />
 
                 <Button
-                    android:id="@+id/exportdata_button"
-                    android:layout_width="300dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="15dp"
-                    android:text="@string/exportdata_button"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/viewdata_button" />
-
-                <Button
                     android:id="@+id/transaction_button"
                     android:layout_width="300dp"
                     android:layout_height="50dp"
@@ -103,7 +93,7 @@
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/exportdata_button" />
+                    app:layout_constraintTop_toBottomOf="@+id/viewdata_button" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
