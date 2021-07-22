@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Buy_Activity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toTopOf="@+id/additems_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/buy_icon" />
+
     <Button
         android:id="@+id/additems_button"
         android:layout_width="300dp"
@@ -23,6 +33,7 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="@string/date"
+        android:drawableLeft="@drawable/date_icon"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
